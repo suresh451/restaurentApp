@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.menu-categories button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.dishes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.dishes-list div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 300px;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.quantity-controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.cart {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.cart p {
+  margin: 0;
+}
